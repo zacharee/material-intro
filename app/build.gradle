@@ -34,14 +34,14 @@ android {
 }
 
 dependencies {
-    compile project(':library')
+    implementation project(':library')
     //Support
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:design:27.1.1'
     //Firebase
-    implementation 'com.google.firebase:firebase-core:12.0.1'
-    implementation 'com.google.firebase:firebase-crash:12.0.1'
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    implementation 'com.google.firebase:firebase-crash:16.0.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
