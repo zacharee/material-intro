@@ -218,7 +218,7 @@ public class InkPageIndicator extends View implements ViewPager.OnPageChangeList
     @Override
     public void onPageSelected(int position) {
         if (isAttachedToWindow) {
-            calculateDotPositions(getWidth(), getHeight());
+            if (position < pageCount) calculateDotPositions(getWidth(), getHeight());
             setSelectedPage(position);
             // this is the main event we're interested in!
         } else {
