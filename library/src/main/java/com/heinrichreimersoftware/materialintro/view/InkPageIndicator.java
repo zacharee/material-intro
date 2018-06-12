@@ -219,7 +219,11 @@ public class InkPageIndicator extends View implements ViewPager.OnPageChangeList
     public void onPageSelected(int position) {
         if (isAttachedToWindow) {
             if (position < pageCount && dotCenterX == null) calculateDotPositions(getWidth(), getHeight());
-            setSelectedPage(position);
+            try {
+                setSelectedPage(position);
+            } catch (NullPointerException e) {
+                setCurrentPageImmediate();
+            }
             // this is the main event we're interested in!
         } else {
             // when not attached, don't animate the move, just store immediately
