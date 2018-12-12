@@ -1,6 +1,5 @@
 package com.heinrichreimersoftware.materialintro.view.parallax.util;
 
-import android.support.annotation.FloatRange;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -9,6 +8,8 @@ import com.heinrichreimersoftware.materialintro.view.parallax.Parallaxable;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
+import androidx.annotation.FloatRange;
 
 public class ParallaxUtil {
     private ParallaxUtil() {}

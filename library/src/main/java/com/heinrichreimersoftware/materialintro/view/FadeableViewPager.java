@@ -27,11 +27,15 @@ package com.heinrichreimersoftware.materialintro.view;
 import android.content.Context;
 import android.database.DataSetObserver;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
-import android.support.v4.view.PagerAdapter;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
+import androidx.viewpager.widget.ViewPager.PageTransformer;
 
 public class FadeableViewPager extends SwipeBlockableViewPager {
 

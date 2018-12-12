@@ -24,8 +24,9 @@
 
 package com.heinrichreimersoftware.materialintro.app;
 
-import android.support.annotation.StringRes;
 import android.view.View;
+
+import androidx.annotation.StringRes;
 
 public interface ButtonCtaFragment {
     View.OnClickListener getButtonCtaClickListener();

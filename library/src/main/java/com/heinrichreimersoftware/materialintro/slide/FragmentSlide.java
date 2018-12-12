@@ -27,12 +27,6 @@ package com.heinrichreimersoftware.materialintro.slide;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.ColorRes;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.StringRes;
-import android.support.annotation.StyleRes;
-import android.support.v4.app.Fragment;
-import android.support.v7.view.ContextThemeWrapper;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -41,6 +35,13 @@ import android.view.ViewGroup;
 import com.heinrichreimersoftware.materialintro.app.ButtonCtaFragment;
 import com.heinrichreimersoftware.materialintro.app.SlideFragment;
 import com.heinrichreimersoftware.materialintro.view.parallax.ParallaxFragment;
+
+import androidx.annotation.ColorRes;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.StringRes;
+import androidx.annotation.StyleRes;
+import androidx.appcompat.view.ContextThemeWrapper;
+import androidx.fragment.app.Fragment;
 
 public class FragmentSlide implements Slide, RestorableSlide, ButtonCtaSlide {
 

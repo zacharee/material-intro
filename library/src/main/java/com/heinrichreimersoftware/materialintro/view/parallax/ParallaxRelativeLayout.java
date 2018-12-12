@@ -2,13 +2,14 @@ package com.heinrichreimersoftware.materialintro.view.parallax;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.FloatRange;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.heinrichreimersoftware.materialintro.R;
+
+import androidx.annotation.FloatRange;
 
 public class ParallaxRelativeLayout extends RelativeLayout implements Parallaxable {
 

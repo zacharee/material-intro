@@ -27,8 +27,6 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
 import android.os.Build;
-import android.support.annotation.ColorInt;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Interpolator;
@@ -37,6 +35,9 @@ import com.heinrichreimersoftware.materialintro.R;
 import com.heinrichreimersoftware.materialintro.util.AnimUtils;
 
 import java.util.Arrays;
+
+import androidx.annotation.ColorInt;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * An ink inspired widget for indicating pages in a {@link ViewPager}.

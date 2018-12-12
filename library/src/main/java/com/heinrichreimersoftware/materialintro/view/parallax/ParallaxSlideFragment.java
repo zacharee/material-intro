@@ -1,8 +1,6 @@
 package com.heinrichreimersoftware.materialintro.view.parallax;
 
 import android.os.Bundle;
-import android.support.annotation.FloatRange;
-import android.support.annotation.Nullable;
 import android.view.View;
 
 import com.heinrichreimersoftware.materialintro.app.SlideFragment;
@@ -11,13 +9,17 @@ import com.heinrichreimersoftware.materialintro.view.parallax.util.ParallaxUtil;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.annotation.FloatRange;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
 
 public class ParallaxSlideFragment extends SlideFragment implements Parallaxable {
 
     private final List<Parallaxable> parallaxableChildren = new ArrayList<>();
 
     @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         parallaxableChildren.addAll(ParallaxUtil.findParallaxableChildren(view));
     }
 

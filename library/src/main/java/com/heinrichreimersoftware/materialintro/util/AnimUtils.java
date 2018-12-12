@@ -18,13 +18,14 @@ package com.heinrichreimersoftware.materialintro.util;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 
 import com.heinrichreimersoftware.materialintro.R;
+
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 
 /**
  * Utility methods for working with animations.

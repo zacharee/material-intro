@@ -24,11 +24,6 @@
 
 package com.heinrichreimersoftware.materialintro.slide;
 
-import android.support.annotation.ColorRes;
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
 import com.heinrichreimersoftware.materialintro.app.SlideFragment;
@@ -36,6 +31,12 @@ import com.heinrichreimersoftware.materialintro.app.SlideFragment;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+
+import androidx.annotation.ColorRes;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 public class SlideAdapter extends FragmentPagerAdapter {
     private List<Slide> data = new ArrayList<>();

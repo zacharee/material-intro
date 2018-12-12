@@ -25,12 +25,13 @@
 package com.heinrichreimersoftware.materialintro.demo;
 
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 
 import com.heinrichreimersoftware.materialintro.demo.databinding.ActivitySplashBinding;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 public class SplashActivity extends AppCompatActivity {
 

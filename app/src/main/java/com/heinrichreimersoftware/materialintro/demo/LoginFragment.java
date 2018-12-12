@@ -24,7 +24,6 @@
 
 package com.heinrichreimersoftware.materialintro.demo;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.LayoutInflater;
@@ -34,6 +33,8 @@ import android.widget.Toast;
 
 import com.heinrichreimersoftware.materialintro.app.SlideFragment;
 import com.heinrichreimersoftware.materialintro.demo.databinding.FragmentLoginBinding;
+
+import androidx.databinding.DataBindingUtil;
 
 public class LoginFragment extends SlideFragment {
 

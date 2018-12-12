@@ -24,8 +24,9 @@
 
 package com.heinrichreimersoftware.materialintro.slide;
 
-import android.support.annotation.StringRes;
 import android.view.View;
+
+import androidx.annotation.StringRes;
 
 public interface ButtonCtaSlide extends Slide {
     View.OnClickListener getButtonCtaClickListener();
